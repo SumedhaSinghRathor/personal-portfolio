@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Landing from "./sections/Landing";
+import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Experience />
       <Skills />
+      <Projects />
     </div>
   );
 }
