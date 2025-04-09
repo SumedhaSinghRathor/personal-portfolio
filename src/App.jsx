@@ -1,5 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
-  return <>HI!</>;
+  return (
+    <div className="max-h-fit overflow-y-hidden">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
