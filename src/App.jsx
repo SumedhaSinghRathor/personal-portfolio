@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import About from "./sections/About";
 import Landing from "./sections/Landing";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="max-h-fit overflow-y-hidden">
       <Navbar />
       <Landing />
+      <About />
     </div>
   );
 }
