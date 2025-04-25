@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import About from "./sections/About";
+import About from "./sections/About/About";
 import Contacts from "./sections/Contacts/Contacts";
 import Experience from "./sections/Experience";
 import Landing from "./sections/Landing";
