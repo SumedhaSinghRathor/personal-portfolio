@@ -5,12 +5,27 @@ const skills = [
   },
   { name: "C", url: "https://cdn.worldvectorlogo.com/logos/c-1.svg" },
   { name: "C++", url: "https://cdn.worldvectorlogo.com/logos/c.svg" },
-  { name: "Canva", url: "https://cdn.worldvectorlogo.com/logos/canva-1.svg" },
+  {
+    name: "Canva",
+    url: "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000",
+  },
   { name: "CSS", url: "https://cdn.worldvectorlogo.com/logos/css-3.svg" },
   { name: "Django", url: "https://cdn.worldvectorlogo.com/logos/django.svg" },
   {
+    name: "Express.js",
+    url: "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff",
+  },
+  {
+    name: "FastAPI",
+    url: "https://cdn.worldvectorlogo.com/logos/fastapi-1.svg",
+  },
+  {
     name: "Figma",
     url: "https://cdn.worldvectorlogo.com/logos/figma-icon.svg",
+  },
+  {
+    name: "Flask",
+    url: "https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=ffffff",
   },
   {
     name: "Flutter",
@@ -50,7 +65,7 @@ const skills = [
   },
   {
     name: "JavaScript",
-    url: "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
+    url: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
   },
   {
     name: "Markdown",
@@ -113,6 +128,10 @@ const skills = [
     url: "https://cdn.worldvectorlogo.com/logos/python-5.svg",
   },
   {
+    name: "PyTorch",
+    url: "https://img.icons8.com/?size=100&id=jH4BpkMnRrU5&format=png&color=000000",
+  },
+  {
     name: "R",
     url: "https://cdn.worldvectorlogo.com/logos/r-lang.svg",
   },
@@ -121,12 +140,20 @@ const skills = [
     url: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
   },
   {
+    name: "Spring Boot",
+    url: "https://img.icons8.com/?size=100&id=90519&format=png&color=000000",
+  },
+  {
     name: "Tableau",
     url: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg",
   },
   {
     name: "Tailwind CSS",
     url: "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg",
+  },
+  {
+    name: "TensorFlow",
+    url: "https://img.icons8.com/?size=100&id=n3QRpDA7KZ7P&format=png&color=000000",
   },
   {
     name: "Unity",
