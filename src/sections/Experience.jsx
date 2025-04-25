@@ -27,13 +27,14 @@ function Experience({ experience = experienceData }) {
       </button>
       <div
         id={`content-${index}`}
-        className={`content my-4 ${
+        className={`content my-4 selection:bg-black selection:text-red ${
           activeIndex === index ? "block flex-auto" : "hidden w-fit"
         }`}
       >
         <h2 className="text-4xl font-bold">{exp.company}</h2>
         <h3 className="text-2xl">{exp.designation}</h3>
         <h4>{exp.duration}</h4>
+        <br />
         <ul className="list-disc mx-8">
           {exp.description.map((description, i) => (
             <li key={i}>{description}</li>
@@ -44,7 +45,7 @@ function Experience({ experience = experienceData }) {
   ));
 
   return (
-    <section className="flex w-full h-full items-start p-5 gap-2">
+    <section className="flex w-full h-screen items-end p-5 gap-2">
       {experienceList}
     </section>
   );

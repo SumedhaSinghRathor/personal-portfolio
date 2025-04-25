@@ -11,7 +11,7 @@ function Skills() {
   ));
 
   return (
-    <section className="w-screen h-fit flex flex-col justify-evenly items-center p-10 gap-8">
+    <section className="w-screen h-fit flex flex-col justify-evenly items-center p-10 gap-8 select-none">
       <div className="skills flex flex-wrap justify-center gap-2 content-center p-4">
         {skillList}
       </div>

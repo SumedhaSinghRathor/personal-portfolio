@@ -2,7 +2,7 @@ import React from "react";
 
 function More() {
   return (
-    <section className="h-[70vh] w-screen text-yellow p-0 flex flex-col items-center justify-end">
+    <section className="h-[70vh] w-screen text-yellow p-0 flex flex-col items-center justify-end select-none">
       <span className="text-7xl leading-[75%]">Click for</span>
       <br />
       <span className="more">

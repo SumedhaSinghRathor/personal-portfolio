@@ -15,7 +15,7 @@ function Landing() {
             Front-end Developer
           </div>
         </div>
-        <div className="move flex gap-16 whitespace-nowrap no-scrollbar">
+        <div className="move flex gap-16 whitespace-nowrap no-scrollbar select-none">
           {Array.from({ length: 3 }).map((_) => (
             <div className="marquee">
               <h1 className="name text-7xl">

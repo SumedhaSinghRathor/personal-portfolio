@@ -14,10 +14,10 @@ import ResNet from "../assets/thumbnails/Deep_Learning_Powered_ResNet.png";
 const projects = [
   {
     title: "My Portfolio",
-    tags: ["HTML / CSS / JS", "GSAP", "Front end"],
+    tags: ["React.js", "Framer-Motion", "Front end"],
     thumbnail: portfolio,
     desc: "Contains the the code and necessary items used in the portfolio. This website is made using only HTML, CSS and JS (using the GSAP library for animations).",
-    link: "",
+    link: "https://sumedhasinghrathor.vercel.app/",
   },
   {
     title: "Deep Learning Powered ResNet",
