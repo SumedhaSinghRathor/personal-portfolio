@@ -11,7 +11,10 @@ function Experience({ experience = experienceData }) {
   const experienceList = experience.map((exp, index) => (
     <div
       key={exp.id || index}
-      className="experience bg-red-500 text-black flex max-w-full min-w-fit h-108 m-0 p-0 rounded-lg gap-4"
+      id={`experience-${index}`}
+      className={`experience bg-red-500 text-black flex h-108 m-0 p-0 rounded-lg gap-4 ${
+        activeIndex === index ? "flex-auto" : "w-fit"
+      }`}
     >
       <button
         className="designation text-2xl px-5 py-1 border border-black bg-red-500 rounded-lg cursor-pointer text-start"
@@ -25,11 +28,11 @@ function Experience({ experience = experienceData }) {
       <div
         id={`content-${index}`}
         className={`content my-4 ${
-          activeIndex === index ? "block grow" : "hidden shrink-0"
+          activeIndex === index ? "block flex-auto" : "hidden w-fit"
         }`}
       >
-        <h2 className="text-4xl">{exp.company}</h2>
-        <h3>{exp.designation}</h3>
+        <h2 className="text-4xl font-bold">{exp.company}</h2>
+        <h3 className="text-2xl">{exp.designation}</h3>
         <h4>{exp.duration}</h4>
         <ul className="list-disc mx-8">
           {exp.description.map((description, i) => (
@@ -41,7 +44,7 @@ function Experience({ experience = experienceData }) {
   ));
 
   return (
-    <section className="flex flex-wrap w-full h-full items-start p-5 gap-2 overflow-auto">
+    <section className="flex w-full h-full items-start p-5 gap-2">
       {experienceList}
     </section>
   );
