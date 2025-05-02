@@ -41,7 +41,7 @@ const skills = [
   },
   {
     name: "GitHub",
-    url: "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg",
+    url: "https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=ffffff",
   },
   {
     name: "GSAP",

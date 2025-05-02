@@ -20,7 +20,7 @@ const experience = [
     ],
   },
   {
-    designation: "Lead Coordinator",
+    designation: "Lead Coordinator of UI/UX Domain",
     company: "E LABS",
     duration: "January 2024 - Present",
     description: [
