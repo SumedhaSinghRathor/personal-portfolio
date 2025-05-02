@@ -12,12 +12,12 @@ function Experience({ experience = experienceData }) {
     <div
       key={exp.id || index}
       id={`experience-${index}`}
-      className={`experience bg-red-500 text-black flex h-108 m-0 p-0 rounded-lg gap-4 ${
+      className={`experience bg-red text-black flex h-108 m-0 p-0 rounded-lg gap-4 ${
         activeIndex === index ? "flex-auto" : "w-fit"
       }`}
     >
       <button
-        className="designation text-2xl px-5 py-1 border border-black bg-red-500 rounded-lg cursor-pointer text-start"
+        className="designation text-2xl px-5 py-1 border border-black bg-red rounded-lg cursor-pointer text-start whitespace-nowrap"
         style={{ writingMode: "sideways-lr" }}
         onClick={() => handleClick(index)}
         aria-expanded={activeIndex === index}
