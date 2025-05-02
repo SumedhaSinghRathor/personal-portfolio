@@ -52,7 +52,7 @@ function Contacts() {
       data-content={contact.icon}
     >
       <FontAwesomeIcon
-        className="icons text-red bg-black hidden border-2 border-red p-[4vw] rounded-[50%] hover:bg-red hover:text-black -m-4 transition:ease-in-out duration-300"
+        className="icons text-red bg-black border-2 border-red p-[4vw] rounded-[50%] hover:bg-red hover:text-black -m-4 transition:ease-in-out duration-300"
         icon={contact.tag}
       />
     </a>
