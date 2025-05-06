@@ -10,18 +10,26 @@ import waterSort from "../assets/thumbnails/water sort.png";
 import JJ from "../assets/thumbnails/JOURNEY JOYS.png";
 import SquidGame from "../assets/thumbnails/squid game.png";
 import ResNet from "../assets/thumbnails/Deep_Learning_Powered_ResNet.png";
+import CCDashboard from "../assets/thumbnails/Credit Card Complaint Dashboard.png";
 
 const projects = [
   {
     title: "My Portfolio",
-    tags: ["React.js", "Framer-Motion", "Front end"],
+    tags: ["Front End", "React.js", "GSAP"],
     thumbnail: portfolio,
     desc: "Contains the the code and necessary items used in the portfolio. This website is made using only HTML, CSS and JS (using the GSAP library for animations).",
     link: "https://sumedhasinghrathor.vercel.app/",
   },
   {
+    title: "Credit Card Complaint Dashboard",
+    thumbnail: CCDashboard,
+    tags: ["Data Analysis", "Tableau", "Data Visualization"],
+    desc: "Comprehensive and visual analysis of credit card complaints recieved",
+    link: "https://public.tableau.com/app/profile/sumedha.singh.rathor/viz/CreditCardComplaintDashboard_17464209913510/CREDITCARDCOMPLAINT",
+  },
+  {
     title: "Deep Learning Powered ResNet",
-    tags: ["CNN", "Neural Networks", "Deep Learning", "Python", "TensorFlow"],
+    tags: ["DL", "CNN", "Neural Networks", "Python", "TensorFlow"],
     thumbnail: ResNet,
     desc: "This project is a deep learning model that uses a ResNet architecture to classify images from the prostate cancer image dataset. The model is trained using TensorFlow and Keras.",
     link: "https://github.com/SumedhaSinghRathor/Deep-Learning-Powered-ResNet/blob/main/Deep_Learning_Powered_ResNet.ipynb",
