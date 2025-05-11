@@ -31,7 +31,7 @@ function CertificateModal({ onClose }) {
           <FontAwesomeIcon
             onClick={onClose}
             icon={faXmark}
-            className="text-2xl cursor-pointer"
+            className="text-2xl"
           />
         </div>
         <div className="w-full flex flex-wrap justify-between gap-3 items-center">

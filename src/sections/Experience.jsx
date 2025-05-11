@@ -17,7 +17,7 @@ function Experience({ experience = experienceData }) {
       }`}
     >
       <button
-        className="designation text-2xl px-5 py-1 border border-black bg-red rounded-lg cursor-pointer text-start whitespace-nowrap"
+        className="designation text-2xl px-5 py-1 border border-black bg-red rounded-lg text-start whitespace-nowrap"
         style={{ writingMode: "sideways-lr" }}
         onClick={() => handleClick(index)}
         aria-expanded={activeIndex === index}

@@ -11,7 +11,7 @@ function Trigger() {
       <FontAwesomeIcon
         icon={faChartPie}
         onClick={() => setShowModal(true)}
-        className="float-right bg-blue text-black p-2 rounded-md mr-6 mt-28 cursor-pointer"
+        className="float-right bg-blue text-black p-2 rounded-md mr-6 mt-28"
       />
       {showModal && <ProjectModal onClose={() => setShowModal(false)} />}
     </>

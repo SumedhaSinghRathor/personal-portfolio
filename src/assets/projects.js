@@ -88,7 +88,7 @@ const projects = [
     tags: ["HTML / CSS / JS", "Game Dev"],
     thumbnail: waterSort,
     desc: "This game is an engaging puzzle game available online that tests players' ability to reason and solve problems. Sorting variously colored water droplets into their appropriate containers using JavaScript based mechanisms is the aim of the game.",
-    link: "",
+    link: "https://sumedhasinghrathor.github.io/Water-Sort/",
   },
   {
     title: "Journey Joys",

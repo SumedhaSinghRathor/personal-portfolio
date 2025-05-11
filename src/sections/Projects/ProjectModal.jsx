@@ -30,7 +30,7 @@ function ProjectModal({ onClose }) {
           <FontAwesomeIcon
             onClick={onClose}
             icon={faXmark}
-            className="text-2xl cursor-pointer"
+            className="text-2xl"
           />
         </div>
         <div className="w-fit">{projectList}</div>

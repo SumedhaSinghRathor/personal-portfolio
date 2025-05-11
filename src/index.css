@@ -24,6 +24,7 @@ body {
   overflow-x: clip;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  cursor: none;
 }
 
 :root {
@@ -34,4 +35,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+button {
+  cursor: none;
 }
