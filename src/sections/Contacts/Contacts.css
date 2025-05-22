@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) {
+  .container:hover {
+    transform: translateY(-50px);
+    transition: ease-in-out;
+    transition-duration: 10ms;
+  }
+
+  .group:hover::after {
+    content: attr(data-content);
+    font-size: large;
+    background-color: var(--color-red);
+    width: 100%;
+    color: var(--color-black);
+    text-align: center;
+    border-radius: 50px;
+    transform: rotate(-5deg);
+  }
+}
