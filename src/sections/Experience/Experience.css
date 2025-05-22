@@ -1,0 +1,27 @@
+.designation {
+  writing-mode: sideways-lr;
+}
+
+@media screen and (max-width: 768px) {
+  .experience {
+    height: fit-content;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .designation {
+    writing-mode: horizontal-tb;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .content {
+    margin: 0;
+    padding: 1em;
+  }
+
+  section {
+    flex-direction: column;
+    justify-content: end;
+  }
+}
