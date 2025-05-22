@@ -1,1 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --color-black: oklch(15.68% 0.0034 17.52);
+  --color-blue: oklch(58.89% 0.120585 232.2941);
+  --color-red: oklch(58.01% 0.2254 27.35);
+  --color-yellow: oklch(86.43% 0.1761 91.9);
+}
+
+@layer {
+  .no-scrollbar::-webkit-scrollbar {
+    scrollbar-width: none;
+  }
+}
+
+:root {
+  font-family: "Goldman", sans-serif;
+  background-color: var(--color-black);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-black);
+  color: white;
+  scrollbar-width: none;
+  overflow-x: clip;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
