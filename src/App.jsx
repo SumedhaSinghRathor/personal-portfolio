@@ -1,6 +1,7 @@
 import About from "./sections/About/About";
 import Experience from "./sections/Experience/Experience";
 import Landing from "./sections/Landing";
+import Skills from "./sections/Skills/Skills";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Landing />
       <About />
       <Experience />
+      <Skills />
     </div>
   );
 }
