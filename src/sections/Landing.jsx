@@ -11,7 +11,7 @@ function Landing() {
           <div className="job text-xs md:text-base text-red selection:bg-red selection:text-black text-center">
             Data Analyst
           </div>
-          <div className="job text-xs md  :text-base text-blue selection:bg-blue selection:text-black text-right">
+          <div className="job text-xs md:text-base text-blue selection:bg-blue selection:text-black text-right">
             Front-end Developer
           </div>
         </div>

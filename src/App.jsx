@@ -7,6 +7,7 @@ import More from "./sections/More/More";
 import Navbar from "./components/Navbar";
 import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
+import Cursor from "./components/Cursor";
 
 function App() {
   const sectionRefs = useRef({
@@ -44,6 +45,7 @@ function App() {
       <div ref={(el) => (sectionRefs.current.More = el)}>
         <More />
       </div>
+      <Cursor />
     </div>
   );
 }
