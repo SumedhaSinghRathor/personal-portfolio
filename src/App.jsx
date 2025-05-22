@@ -2,6 +2,7 @@ import About from "./sections/About/About";
 import Contacts from "./sections/Contacts/Contacts";
 import Experience from "./sections/Experience/Experience";
 import Landing from "./sections/Landing";
+import More from "./sections/More/More";
 import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
 
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Contacts />
+      <More />
     </div>
   );
 }
