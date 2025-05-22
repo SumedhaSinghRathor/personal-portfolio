@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
 import Cursor from "./components/Cursor";
+import Preloader from "./components/Preloader";
 
 function App() {
   const sectionRefs = useRef({
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <div className="max-h-fit overflow-hidden">
+      <Preloader />
       <Navbar onLinkClick={scrollToSection} />
       <Landing />
       <div ref={(el) => (sectionRefs.current.About = el)}>
