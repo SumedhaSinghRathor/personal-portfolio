@@ -7,7 +7,7 @@ import {
   faHackerrank,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import pdf from "../../assets/Sumedha Singh Rathor RESUME.pdf";
+import pdf from "../../assets/Sumedha_Singh_Rathor__DEV__Resume.pdf";
 import "./Contacts.css";
 
 function Contacts() {
