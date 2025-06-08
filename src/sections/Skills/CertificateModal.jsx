@@ -12,11 +12,22 @@ function CertificateModal({ onClose }) {
   };
 
   const certificationList = certificates.map((certificate) => (
-    <div className="w-98">
-      <a href={certificate.link} target="_blank">
-        <img src={certificate.img} alt={certificate.name} className="w-fit" />
-      </a>
-    </div>
+    <a href={certificate.link} className="m-auto">
+      <div className="relative w-full">
+        <div className="bg-white size-full">
+          <img src={certificate.img} alt={certificate.name} />
+        </div>
+        <div className="absolute text-yellow top-0 size-full bg-linear-to-b from-black/40 to to-black opacity-0 hover:opacity-100 p-4 flex flex-col justify-end">
+          <div>
+            <h2 className="text-2xl line-clamp-2">{certificate.name}</h2>
+          </div>
+          <div className="flex justify-between">
+            <p>{certificate.dateIssued}</p>
+            <p>{certificate.issueOrg}</p>
+          </div>
+        </div>
+      </div>
+    </a>
   ));
 
   return (
@@ -34,7 +45,7 @@ function CertificateModal({ onClose }) {
             className="text-2xl"
           />
         </div>
-        <div className="w-full flex flex-wrap justify-between gap-3 items-center">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {certificationList}
         </div>
       </div>

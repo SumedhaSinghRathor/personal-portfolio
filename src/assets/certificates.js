@@ -24,6 +24,9 @@ import certMLudemy from "../assets/certificates/Numpy, SciPy, Matplotlib & Panda
 import udemyJS from "../assets/certificates/Hands-On JavaScript, Crafting 10 Projects from Scratch.jpg";
 import CourseraAnalysis from "../assets/certificates/Business Analytics for Decision Making from Coursera.png";
 import CourseraStrategy from "../assets/certificates/Strategy and Game Theory for Management from Coursera.png";
+import MobileDevMETA from "../assets/certificates/Introduction to Mobile Development by META.jpeg";
+import JavaScriptMETA from "../assets/certificates/Programming with JavaScript by META.jpeg";
+import VCSMETA from "../assets/certificates/Version Control by META.jpeg";
 
 const certificates = [
   {
@@ -171,42 +174,63 @@ const certificates = [
     issueOrg: "Udemy",
     img: certJPyUdemy,
     link: "https://www.udemy.com/certificate/UC-04ebb48b-1c96-4773-b657-79b05c60cd38/",
-    date: "3rd December 2024",
+    dateIssued: "3rd December 2024",
   },
   {
     name: "Numpy, SciPy, Matplotlib & Pandas A-Z - Machine Learning",
     issueOrg: "Udemy",
     img: certMLudemy,
     link: "https://www.udemy.com/certificate/UC-6f9c9e29-24d8-4c39-8fa0-c85458810bb6/",
-    date: "3rd December 2024",
+    dateIssued: "3rd December 2024",
   },
   {
     name: "Hands-On JavaScript, Crafting 10 Projects from Scratch",
     issueOrg: "Udemy",
     img: udemyJS,
     link: "https://www.udemy.com/certificate/UC-7052090f-7374-4377-92c0-f9cec76de970/",
-    date: "3rd Decmber 2024",
+    dateIssued: "3rd Decmber 2024",
   },
   {
     name: "Python Fullstack Web Developer Certificate of Completion",
     issueOrg: "AICTE",
     img: certAICTE,
     link: certAICTE,
-    date: "7th December 2024",
+    dateIssued: "7th December 2024",
   },
   {
     name: "Business Analytics for Decision Making",
     issueOrg: "Coursera",
     img: CourseraAnalysis,
     link: "https://www.coursera.org/account/accomplishments/verify/8T91ITZZBTLY",
-    date: "7th March 2025",
+    dateIssued: "7th March 2025",
   },
   {
     name: "Strategy and Game Theory for Management",
     issueOrg: "Coursera",
     img: CourseraStrategy,
     link: "https://www.coursera.org/account/accomplishments/verify/A0AHE56DODXA",
-    date: "22nd March 2025",
+    dateIssued: "22nd March 2025",
+  },
+  {
+    name: "Introduction to Mobile Development",
+    issueOrg: "Meta",
+    img: MobileDevMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/BSK9H2LBNKZ",
+    dateIssued: "8th June 2025",
+  },
+  {
+    name: "Programming with JavaScript",
+    issueOrg: "Meta",
+    img: JavaScriptMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/KEWJ4F7FSO6T",
+    dateIssued: "8th June 2025",
+  },
+  {
+    name: "Version Control",
+    issueOrg: "Meta",
+    img: VCSMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/PGKIVOO591JR",
+    dateIssued: "8th June 2025",
   },
 ];
 
