@@ -17,13 +17,15 @@ function CertificateModal({ onClose }) {
         <div className="bg-white size-full">
           <img src={certificate.img} alt={certificate.name} />
         </div>
-        <div className="absolute text-yellow top-0 size-full bg-linear-to-b from-black/40 to to-black opacity-0 hover:opacity-100 p-4 flex flex-col justify-end">
+        <div className="absolute text-yellow top-0 size-full bg-linear-to-b from-black/40 to to-black opacity-0 hover:opacity-100 p-4 flex flex-col justify-end gap-2">
           <div>
-            <h2 className="text-2xl line-clamp-2">{certificate.name}</h2>
+            <h2 className="md:text-xl lg:text-2xl line-clamp-2">
+              {certificate.name}
+            </h2>
           </div>
           <div className="flex justify-between">
-            <p>{certificate.dateIssued}</p>
-            <p>{certificate.issueOrg}</p>
+            <p className="text-xs md:text-sm">{certificate.dateIssued}</p>
+            <p className="text-xs md:text-sm">{certificate.issueOrg}</p>
           </div>
         </div>
       </div>
