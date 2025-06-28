@@ -27,6 +27,12 @@ import CourseraStrategy from "../assets/certificates/Strategy and Game Theory fo
 import MobileDevMETA from "../assets/certificates/Introduction to Mobile Development by META.jpeg";
 import JavaScriptMETA from "../assets/certificates/Programming with JavaScript by META.jpeg";
 import VCSMETA from "../assets/certificates/Version Control by META.jpeg";
+import ReactBasicMETA from "../assets/certificates/React Basic by META.jpeg";
+import HTMLCSSMETA from "../assets/certificates/HTML and CSS in depth by META.jpeg";
+import UIUXMETA from "../assets/certificates/Principles of UX_UI Design by META.jpeg";
+import BackEndMETA from "../assets/certificates/Introduction to Back-End Development.jpeg";
+import FrontEndMeta from "../assets/certificates/Introduction to Front-End Development.jpeg";
+import AdvReactMETA from "../assets/certificates/Advanced React.jpeg";
 
 const certificates = [
   {
@@ -231,6 +237,48 @@ const certificates = [
     img: VCSMETA,
     link: "https://www.coursera.org/account/accomplishments/verify/PGKIVOO591JR",
     dateIssued: "8th June 2025",
+  },
+  {
+    name: "React Basics",
+    issueOrg: "Meta",
+    img: ReactBasicMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/KGYEVOFCNH0O",
+    dateIssued: "9th June 2025",
+  },
+  {
+    name: "HTML and CSS in depth",
+    issueOrg: "Meta",
+    img: HTMLCSSMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/XSFSDWNXG08L",
+    dateIssued: "10th June 2025",
+  },
+  {
+    name: "Principles of UX/UI Design",
+    issueOrg: "Meta",
+    img: UIUXMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/FLL59CSW2YFA",
+    dateIssued: "10th June 2025",
+  },
+  {
+    name: "Introduction to Front-End Developement",
+    issueOrg: "Meta",
+    img: FrontEndMeta,
+    link: "https://www.coursera.org/account/accomplishments/verify/1IY52GK097RM",
+    dateIssued: "28th June 2025",
+  },
+  {
+    name: "Introduction to Back-End Development",
+    issueOrg: "Meta",
+    img: BackEndMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/9QBV770LB40Q",
+    dateIssued: "28th June 2025",
+  },
+  {
+    name: "Advanced React",
+    issueOrg: "Meta",
+    img: AdvReactMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/GLZMFKB6M8TZ",
+    dateIssued: "28th June 2025",
   },
 ];
 
