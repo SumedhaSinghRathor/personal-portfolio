@@ -1,0 +1,3 @@
+.group:hover::after {
+  content: none !important;
+}
