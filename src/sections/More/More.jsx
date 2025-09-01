@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import MoreModal from "./MoreModal";
 
 function More() {
@@ -16,7 +16,7 @@ function More() {
           onClick={() => setShowModal(true)}
         >
           MORE
-        </h1>{" "}
+        </h1>
         {showModal && <MoreModal onClose={() => setShowModal(false)} />}
       </span>
     </section>

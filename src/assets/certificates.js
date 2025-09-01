@@ -33,6 +33,9 @@ import UIUXMETA from "../assets/certificates/Principles of UX_UI Design by META.
 import BackEndMETA from "../assets/certificates/Introduction to Back-End Development.jpeg";
 import FrontEndMeta from "../assets/certificates/Introduction to Front-End Development.jpeg";
 import AdvReactMETA from "../assets/certificates/Advanced React.jpeg";
+import FrontEndCapstoneMETA from "../assets/certificates/Front-End Developer Capstone.jpeg";
+import CodingPrep from "../assets/certificates/Coding Interview Preparation.jpeg";
+import FrontEndDevMETA from "../assets/certificates/Meta Front-End Developer.jpeg";
 
 const certificates = [
   {
@@ -279,6 +282,27 @@ const certificates = [
     img: AdvReactMETA,
     link: "https://www.coursera.org/account/accomplishments/verify/GLZMFKB6M8TZ",
     dateIssued: "28th June 2025",
+  },
+  {
+    name: "Front-End Developer Capstone",
+    issueOrg: "Meta",
+    img: FrontEndCapstoneMETA,
+    link: "https://www.coursera.org/account/accomplishments/verify/HZGU00W1NP6G",
+    dateIssued: "30th June 2025",
+  },
+  {
+    name: "Coding Interview Preparation",
+    issueOrg: "Meta",
+    img: CodingPrep,
+    link: "https://www.coursera.org/account/accomplishments/verify/8Y3AKM443FAM",
+    dateIssued: "30th June 2025",
+  },
+  {
+    name: "Meta Front-End Developer Specialization",
+    issueOrg: "Meta",
+    img: FrontEndDevMETA,
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/NXKBDE6NIOPZ",
+    dateIssued: "30th June 2025",
   },
 ];
 

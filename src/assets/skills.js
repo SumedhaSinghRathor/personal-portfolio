@@ -159,6 +159,7 @@ const skills = [
     name: "Unity",
     url: "https://cdn.worldvectorlogo.com/logos/unity-69.svg",
   },
+  { name: "Vue", url: "https://cdn.worldvectorlogo.com/logos/vue-9.svg" },
   {
     name: "Webflow",
     url: "https://img.icons8.com/color/48/webflow.png",

@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 
 function Cursor() {
-  useEffect(() => {
+  useGSAP(() => {
     const handleMouseMove = () => {
       const { clientX, clientY } = event;
       gsap.to("#cursor", {
@@ -14,17 +14,13 @@ function Cursor() {
     };
 
     window.addEventListener("mousemove", handleMouseMove);
-
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
+  });
 
   return (
     <div
       id="cursor"
-      className="fixed -top-6 -left-6 size-12 rounded-full border border-white pointer-events-none z-100 hidden lg:block"
-    ></div>
+      className="fixed -top-6 -left-6 size-12 rounded-full border border-white pointer-events-none z-9 hidden lg:block"
+    />
   );
 }
 

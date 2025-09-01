@@ -1,10 +1,9 @@
-import React from "react";
 import skills from "../../assets/skills";
 import Certificates from "./Certificates";
 
 function Skills() {
   const skillList = skills.map((skill) => (
-    <div className="border-1 border-yellow w-fit h-fit p-1.5 flex items-center gap-2 rounded-sm text-yellow hover:text-black hover:bg-yellow transition-colors text-sm md:text-base">
+    <div className="border border-yellow w-fit h-fit p-1.5 flex items-center gap-2 rounded-sm text-yellow hover:text-black hover:bg-yellow transition-colors text-sm md:text-base">
       <img src={skill.url} className="size-8" alt={skill.name} />
       {skill.name}
     </div>
