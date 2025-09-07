@@ -1,7 +1,7 @@
 import projects from "../../assets/projects";
 import "./Projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChartArea } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlassChart } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import ProjectModal from "./ProjectModal";
 
@@ -10,7 +10,7 @@ function Projects() {
 
   const projectsList = projects.map((project) => (
     <a href={project.link} target="_blank">
-      <div className="project group flex flex-col p-5 border-1 border-blue text-blue hover:text-black hover:bg-blue transition-colors gap-3 w-72 shrink-0 h-fit rounded-3xl mx-auto">
+      <div className="project group flex flex-col p-5 border border-blue text-blue hover:text-black hover:bg-blue transition-colors gap-3 w-72 shrink-0 h-fit rounded-2xl mx-auto">
         <div className="thumbnail">
           <img
             src={project.thumbnail}
@@ -25,7 +25,7 @@ function Projects() {
             ...(project.language || []),
             ...(project.tools || []),
           ].map((tag) => (
-            <div className="tag border-1 border-blue group-hover:border-black px-2 py-0.5 rounded-4xl text-xs w-fit">
+            <div className="tag border border-blue group-hover:border-black px-2 py-0.5 rounded-4xl text-xs w-fit">
               {tag}
             </div>
           ))}
@@ -43,8 +43,8 @@ function Projects() {
       <div className="flex justify-end">
         <FontAwesomeIcon
           onClick={() => setShowModal(true)}
-          icon={faChartArea}
-          className="text-xl p-2 text-black bg-blue rounded-xl mb-5 cursor-pointer"
+          icon={faMagnifyingGlassChart}
+          className="text-xl p-2 text-black bg-blue rounded-lg mb-5 cursor-pointer"
         />
       </div>
       {showModal && <ProjectModal onClose={() => setShowModal(false)} />}
