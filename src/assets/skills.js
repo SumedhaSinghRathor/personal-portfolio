@@ -9,6 +9,10 @@ const skills = [
     name: "Canva",
     url: "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000",
   },
+  {
+    name: "Chart.js",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chart.js_logo.svg/1200px-Chart.js_logo.svg.png",
+  },
   { name: "CSS", url: "https://cdn.worldvectorlogo.com/logos/css-3.svg" },
   { name: "Django", url: "https://cdn.worldvectorlogo.com/logos/django.svg" },
   {
@@ -26,10 +30,6 @@ const skills = [
   {
     name: "Flask",
     url: "https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=ffffff",
-  },
-  {
-    name: "Flutter",
-    url: "https://cdn.worldvectorlogo.com/logos/flutter-logo.svg",
   },
   {
     name: "Framer",
@@ -54,10 +54,6 @@ const skills = [
   {
     name: "Illustrator",
     url: "https://icon.icepanel.io/Technology/svg/Adobe-Illustrator.svg",
-  },
-  {
-    name: "InDesign",
-    url: "https://cdn.worldvectorlogo.com/logos/adobe-indesign-cc-icon.svg",
   },
   {
     name: "Java",
@@ -154,10 +150,6 @@ const skills = [
   {
     name: "TensorFlow",
     url: "https://img.icons8.com/?size=100&id=n3QRpDA7KZ7P&format=png&color=000000",
-  },
-  {
-    name: "Unity",
-    url: "https://cdn.worldvectorlogo.com/logos/unity-69.svg",
   },
   { name: "Vue", url: "https://cdn.worldvectorlogo.com/logos/vue-9.svg" },
   {

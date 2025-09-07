@@ -3,9 +3,6 @@ import MoreModal from "./MoreModal";
 
 function More() {
   const [showModal, setShowModal] = useState(false);
-
-  const inProgress = true;
-
   return (
     <section className="h-screen w-screen text-yellow p-0 flex flex-col items-center justify-end select-none">
       <span className="text-7xl leading-[75%]">Click for</span>

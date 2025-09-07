@@ -23,14 +23,6 @@ ChartJS.register(
 );
 
 function ProjectModal({ onClose }) {
-  useEffect(() => {
-    document.body.style.overflow = "hidden";
-
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, []);
-
   const modalRef = useRef();
   const closeModal = (e) => {
     if (modalRef.current === e.target) {
@@ -169,6 +161,33 @@ function ProjectModal({ onClose }) {
           display: false,
         },
         legend: { display: false },
+        tooltip: {
+          enabled: true, // Enable tooltip
+          backgroundColor: "#0E0C0C",
+          titleFont: { weight: "bold", size: 12, family: "Goldman" },
+          titleColor: `rgb(${baseColor})`,
+          bodyColor: `rgb(${baseColor})`,
+          bodyFont: { size: 8, family: "Goldman" },
+          borderWidth: 1,
+          borderColor: `rgb(${baseColor})`,
+          padding: 10,
+          cornerRadius: 10,
+          xAlign: "left",
+          callbacks: {
+            // Customizes the main label
+            label: function (context) {
+              return "Value: " + context.parsed.y;
+            },
+            // Customizes the title
+            title: function (context) {
+              return "Custom Title: " + context.label;
+            },
+            beforeBody: function (context) {
+              return titles.map((title, idx) => idx + 1 + ". " + title);
+            },
+            // More callbacks: beforeLabel, afterLabel, footer, etc.
+          },
+        },
       },
       scales: {
         x: {
@@ -315,9 +334,9 @@ function ProjectModal({ onClose }) {
       <div className="bg-black text-blue border border-blue p-6 rounded-xl w-lg h-fit">
         <h1 className="text-3xl w-full text-center">Project Analysis</h1>
         <div className="h-fit">{selectedComponent}</div>
-        <div className="w-full grid grid-cols-4 gap-2 justify-between mt-4 text-xs">
+        <div className="w-full grid grid-cols-3 gap-1 justify-between mt-4 text-xs">
           <button
-            className={`grow border border-blue rounded-sm ${
+            className={`grow border-b border-blue ${
               selected === 1
                 ? "bg-blue text-black"
                 : "cursor-pointer hover:bg-blue/20"
@@ -327,7 +346,7 @@ function ProjectModal({ onClose }) {
             By Framework
           </button>
           <button
-            className={`grow border border-blue rounded-sm ${
+            className={`grow border-b border-blue ${
               selected === 2
                 ? "bg-blue text-black"
                 : "cursor-pointer hover:bg-blue/20"
@@ -337,7 +356,7 @@ function ProjectModal({ onClose }) {
             By Language
           </button>
           <button
-            className={`grow border border-blue rounded-sm ${
+            className={`grow border-b border-blue ${
               selected === 3
                 ? "bg-blue text-black"
                 : "cursor-pointer hover:bg-blue/20"
@@ -347,7 +366,7 @@ function ProjectModal({ onClose }) {
             By Type
           </button>
           <button
-            className={`grow border border-blue rounded-sm ${
+            className={`grow border-b border-blue ${
               selected === 4
                 ? "bg-blue text-black"
                 : "cursor-pointer hover:bg-blue/20"
