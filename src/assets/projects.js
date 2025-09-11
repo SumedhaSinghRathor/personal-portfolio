@@ -12,6 +12,7 @@ import SquidGame from "../assets/thumbnails/squid game.png";
 import ResNet from "../assets/thumbnails/Deep_Learning_Powered_ResNet.png";
 import CCDashboard from "../assets/thumbnails/Credit Card Complaint Dashboard.png";
 import fetchTVshows from "../assets/thumbnails/Fetch TV Shows.png";
+import CRUDBlog from "../assets/thumbnails/CRUD Blog.png";
 
 const projects = [
   {
@@ -22,6 +23,16 @@ const projects = [
     type: ["Front End"],
     frameworks: ["React.js"],
     tools: ["GSAP", "Chart.js"],
+    language: ["JavaScript"],
+  },
+  {
+    title: "CRUD Blog",
+    thumbnail: CRUDBlog,
+    desc: "A dynamic blog platform built with Next.js and MongoDB, enabling seamless creation, editing, and deletion of posts.",
+    link: "https://nextjsmongodb-fullstack-blog.vercel.app/",
+    type: ["Full Stack"],
+    frameworks: ["Next.js"],
+    tools: ["MongoDB", "Tailwind CSS"],
     language: ["JavaScript"],
   },
   {
@@ -80,8 +91,8 @@ const projects = [
     desc: "Color segmentation compares the color feature of each pixel with the color features of surrounding pixels or a trained color classifier to segment an image into color regions. This notebook uses different images of fishes (clownfishes) to segment them from their background.",
     link: "https://github.com/SumedhaSinghRathor/Image-Segmentation-using-color-spaces/blob/main/Image_Segmentation.ipynb",
     type: [],
-    frameworks: ["OpenCV"],
-    tools: [],
+    frameworks: [],
+    tools: ["OpenCV"],
     language: ["Python"],
   },
   {

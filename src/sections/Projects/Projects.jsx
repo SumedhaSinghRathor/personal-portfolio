@@ -10,12 +10,12 @@ function Projects() {
 
   const projectsList = projects.map((project) => (
     <a href={project.link} target="_blank">
-      <div className="project group flex flex-col p-5 border border-blue text-blue hover:text-black hover:bg-blue transition-colors gap-3 w-72 shrink-0 h-fit rounded-2xl mx-auto">
+      <div className="project group flex flex-col p-5 border border-blue text-blue hover:text-black hover:bg-blue transition-colors duration-400 gap-3 w-72 shrink-0 h-fit rounded-xl mx-auto">
         <div className="thumbnail">
           <img
             src={project.thumbnail}
             alt=""
-            className="w-full rounded-t-xl aspect-4/3"
+            className="w-full rounded-t-lg aspect-4/3"
           />
         </div>
         <div className="tags flex w-full gap-2 flex-nowrap overflow-scroll no-scrollbar whitespace-nowrap overflow-x-scroll">
