@@ -36,6 +36,7 @@ import AdvReactMETA from "../assets/certificates/Advanced React.jpeg";
 import FrontEndCapstoneMETA from "../assets/certificates/Front-End Developer Capstone.jpeg";
 import CodingPrep from "../assets/certificates/Coding Interview Preparation.jpeg";
 import FrontEndDevMETA from "../assets/certificates/Meta Front-End Developer.jpeg";
+import BackEndDev from "../assets/certificates/Backend Development and API Creation by Packt.jpeg";
 
 const certificates = [
   {
@@ -303,6 +304,13 @@ const certificates = [
     img: FrontEndDevMETA,
     link: "https://www.coursera.org/account/accomplishments/professional-cert/NXKBDE6NIOPZ",
     dateIssued: "30th June 2025",
+  },
+  {
+    name: "Backend Development and API Creation",
+    issueOrg: "Packt",
+    img: BackEndDev,
+    link: "https://www.coursera.org/account/accomplishments/verify/L3YXS76JS2B0",
+    dateIssued: "17th November 2025",
   },
 ];
 

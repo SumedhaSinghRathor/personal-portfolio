@@ -13,7 +13,7 @@ function Experience({ experience = experienceData }) {
     <div
       key={exp.id || index}
       id={`experience-${index}`}
-      className={`experience bg-red text-black flex h-108 m-0 p-0 rounded-lg gap-4 ${
+      className={`experience bg-red text-black flex h-116 m-0 p-0 rounded-lg gap-4 ${
         activeIndex === index ? "flex-auto" : "w-fit"
       }`}
     >
@@ -28,7 +28,7 @@ function Experience({ experience = experienceData }) {
       <div
         id={`content-${index}`}
         className={`content my-4 selection:bg-black selection:text-red ${
-          activeIndex === index ? "block flex-auto" : "hidden w-fit"
+          activeIndex === index ? "block" : "hidden"
         }`}
       >
         <h2 className="text-4xl font-bold">{exp.company}</h2>

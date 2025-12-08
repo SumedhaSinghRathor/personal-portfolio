@@ -14,8 +14,8 @@ function Id() {
       const middleX = rect.left + rect.width / 2;
       const middleY = rect.top + rect.height / 2;
 
-      const offsetX = ((event.clientX - middleX) / (rect.width / 2)) * 20; // tilt range
-      const offsetY = ((event.clientY - middleY) / (rect.height / 2)) * -20;
+      const offsetX = ((event.clientX - middleX) / (rect.width / 2)) * -20;
+      const offsetY = ((event.clientY - middleY) / (rect.height / 2)) * 20;
 
       gsap.to(element, {
         rotateX: offsetY,

@@ -1,8 +1,8 @@
-import projects from "../../assets/projects";
+import { useState } from "react";
 import "./Projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlassChart } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import projects from "../../assets/projects";
 import ProjectModal from "./ProjectModal";
 
 function Projects() {

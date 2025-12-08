@@ -329,7 +329,7 @@ function ProjectModal({ onClose }) {
     <div
       ref={modalRef}
       onClick={closeModal}
-      className="fixed inset-0 flex justify-center items-center p-5 bg-black/45 backdrop-blur-sm"
+      className="fixed inset-0 flex justify-center items-center p-5 bg-black/45 backdrop-blur-sm z-100"
     >
       <div className="bg-black text-blue border border-blue p-6 rounded-xl w-lg h-fit">
         <h1 className="text-3xl w-full text-center">Project Analysis</h1>
