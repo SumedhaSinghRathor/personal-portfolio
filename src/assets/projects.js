@@ -13,6 +13,7 @@ import ResNet from "../assets/thumbnails/Deep_Learning_Powered_ResNet.png";
 import CCDashboard from "../assets/thumbnails/Credit Card Complaint Dashboard.png";
 import fetchTVshows from "../assets/thumbnails/Fetch TV Shows.png";
 import CRUDBlog from "../assets/thumbnails/CRUD Blog.png";
+import WIS from "../assets/thumbnails/what-is-shoujo.vercel.app_.png";
 
 const projects = [
   {
@@ -22,7 +23,17 @@ const projects = [
     link: "https://sumedhasinghrathor.vercel.app/",
     type: ["Front End"],
     frameworks: ["React.js"],
-    tools: ["GSAP", "Chart.js"],
+    tools: ["GSAP", "Tailwind CSS", "Chart.js"],
+    language: ["JavaScript"],
+  },
+  {
+    title: "What Is Shoujo?",
+    thumbnail: WIS,
+    desc: "What-is-Shoujo? is MERN stack web app that serves as a searchable database for Shoujo manga (demographic aimed at young women) with genre filters. It also acts as a personal reading tracker, letting users log progress, manage lists, and view detailed info.",
+    link: "https://what-is-shoujo.vercel.app/",
+    type: ["Full Stack"],
+    frameworks: ["React.js", "Express.js", "Node.js"],
+    tools: ["MongoDB", "Tailwind CSS", "Chart.js"],
     language: ["JavaScript"],
   },
   {
