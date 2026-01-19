@@ -37,6 +37,8 @@ import FrontEndCapstoneMETA from "../assets/certificates/Front-End Developer Cap
 import CodingPrep from "../assets/certificates/Coding Interview Preparation.jpeg";
 import FrontEndDevMETA from "../assets/certificates/Meta Front-End Developer.jpeg";
 import BackEndDev from "../assets/certificates/Backend Development and API Creation by Packt.jpeg";
+import DockerCert from "../assets/certificates/Docker Certificate_00001.png";
+import KubernetesCert from "../assets/certificates/Kubernetes Certificate_00001.png";
 
 const certificates = [
   {
@@ -311,6 +313,20 @@ const certificates = [
     img: BackEndDev,
     link: "https://www.coursera.org/account/accomplishments/verify/L3YXS76JS2B0",
     dateIssued: "17th November 2025",
+  },
+  {
+    name: "Docker Training",
+    issueOrg: "Wissen Technology",
+    img: DockerCert,
+    link: null,
+    dateIssued: "11th January 2026",
+  },
+  {
+    name: "Kubernetes Training",
+    issueOrg: "Wissen Technology",
+    img: KubernetesCert,
+    link: null,
+    dateIssued: "17th January 2026",
   },
 ];
 
