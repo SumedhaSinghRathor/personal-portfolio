@@ -36,7 +36,7 @@ function CertificateModal({ onClose }) {
     <div
       ref={modalRef}
       onClick={closeModal}
-      className="fixed inset-0 flex justify-center items-center p-5 bg-black/45 backdrop-blur-sm"
+      className="fixed inset-0 flex justify-center items-center p-5 bg-black/45 backdrop-blur-sm z-10"
     >
       <div className="bg-yellow text-black p-5 w-full h-full rounded-2xl overflow-scroll no-scrollbar items-center">
         <div className="flex items-center justify-between w-full mb-3">

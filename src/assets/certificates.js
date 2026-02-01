@@ -39,6 +39,7 @@ import FrontEndDevMETA from "../assets/certificates/Meta Front-End Developer.jpe
 import BackEndDev from "../assets/certificates/Backend Development and API Creation by Packt.jpeg";
 import DockerCert from "../assets/certificates/Docker Certificate_00001.png";
 import KubernetesCert from "../assets/certificates/Kubernetes Certificate_00001.png";
+import Java1721 from "../assets/certificates/Java 17 & Java 21 Certificate.png";
 
 const certificates = [
   {
@@ -328,6 +329,13 @@ const certificates = [
     link: null,
     dateIssued: "17th January 2026",
   },
+  {
+    name: "Java 17 & 21 Training",
+    issueOrg: "Wissen Technology",
+    img: Java1721,
+    link: null,
+    dateIssued: "2nd February 2026"
+  }
 ];
 
 export default certificates;
